@@ -9,7 +9,11 @@ int main()
         clear_screen(COLOR_WHITE);
 
         // Add your drawing here!
-        // fill_circle(COLOR_RED, 400, 300, 100);
+        draw_circle(COLOR_BLUE, 100, 300, 100);
+        draw_circle(COLOR_YELLOW, 200, 400, 100);
+        draw_circle(COLOR_BLACK, 300, 300, 100);
+        draw_circle(COLOR_GREEN, 400, 400, 100);
+        draw_circle(COLOR_RED, 500, 300, 100);
 
         refresh_screen(60);
     }
