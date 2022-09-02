@@ -1,0 +1,1 @@
+~/.splashkit/skm clang++ program.c -o program && ./program
